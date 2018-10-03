@@ -1,4 +1,4 @@
-class Artist
+class Author
   attr_accessor :name
 
   def initialize(name )
@@ -6,4 +6,4 @@ class Artist
   end
 end
  author = Artist.new
- artist.name = "Uncle Bob" 
+ artist.name = "Uncle Bob"
