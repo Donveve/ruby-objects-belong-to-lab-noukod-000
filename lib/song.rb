@@ -7,5 +7,5 @@ class Song
   end
 end
     Song = Song.new
-    song.title = "7/11" 
+    song.title = "7/11"
     song.artist.name
