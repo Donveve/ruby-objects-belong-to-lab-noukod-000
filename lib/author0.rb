@@ -6,5 +6,3 @@ class Author
     @title = name
   end
 end
-author1 = Author.new("Dorestav")
-author1.name
