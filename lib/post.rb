@@ -6,7 +6,6 @@ class Post
   end
 end
  post = Post.new
-post.title =  "Hello World"
  post.title = "Hello World"
  author = Author.new
  post.author = author
