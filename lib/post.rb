@@ -7,5 +7,4 @@ class Post
 end
  post = Post.new
  post.title = "Hello World"
- author = Author.new
- post.author = author
+ post.author.name
