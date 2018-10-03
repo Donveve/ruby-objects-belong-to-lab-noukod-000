@@ -6,4 +6,4 @@ class Post
   end
 end
  post = Post.new("")
- post.title = "7/11" 
+ post.title = "7/11"
