@@ -6,6 +6,4 @@ class Song
     @title = title
   end
 end
-    Song = Song.new
-    song.title = "7/11"
-    song.artist.name
+    
