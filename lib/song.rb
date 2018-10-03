@@ -6,8 +6,6 @@ class Song
     @title = title
   end
 end
-    hotline_bling = Song.new("Hotline Bling")
-    hotline_bling.title
-    hotline_bling.artist = "Drake"
-    hotline_bling.artist
-    song.artist.name
+    Song = Song.new
+    artist = Artist.new
+    song.artist = artist
