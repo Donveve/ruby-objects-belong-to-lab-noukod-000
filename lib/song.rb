@@ -1,14 +1,10 @@
 class Song
-  attr_accessor :name, :artist
-  @@all = []
-  def initialize(name)
-    @name = name
-    @@all << self
-  end
-  def self.all
-    @@all
-  end
-  def artist_name
-    artist.name if artist
+ 
+  attr_accessor :title
+ 
+  def initialize(title)
+    @title = title
   end
 end
+    hotline_bling = Song.new("Hotline Bling")
+    hotline_bling.title
