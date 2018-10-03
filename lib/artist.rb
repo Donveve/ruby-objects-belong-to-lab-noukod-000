@@ -6,3 +6,5 @@ class Artist
     @songs = song
   end
 end
+artist1 = Artist.new("name")
+artist1.name
