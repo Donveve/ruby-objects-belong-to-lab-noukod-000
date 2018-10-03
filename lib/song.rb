@@ -9,4 +9,4 @@ end
     hotline_bling = Song.new("Hotline Bling")
     hotline_bling.title
     hotline_bling.artist = "Drake"
-hotline_bling.artist
+    hotline_bling.artist
